@@ -1,0 +1,387 @@
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration:none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+  .button {
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.1s;
+    filter: brightness(100%);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    transition: 0.2s;
+    margin: 20px;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+  }
+  
+  .btn-black {
+    background-color: black;
+    color: white !important;
+    transition: 0.2s;
+  }
+  
+  .btn-black:hover {
+    filter: brightness(90%);
+    box-shadow: 0.1px 6px 0.2px rgba(0, 0, 0, .2);
+  }
+  
+  .btn-black:focus {
+    border-radius: 0px;
+    outline: none;
+  }
+  
+  .btn-lg {
+    border-radius: 8px;
+    transition: 0.2s;
+    filter: brightness(100%);
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px !important;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    transition: 0.2s;
+    margin: 20px;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn-lg:hover {
+    filter: brightness(95%);
+    color: white;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .btn-lg:focus {
+    border-radius: 8px;
+  }
+  
+  .btn-primary {
+    background-color: #0070f3;
+    color: white;
+    transition: 0.2s;
+  }
+  
+  .btn-blue {
+    background-color: #0070f3;
+    color: white !important;
+    transition: 0.2s;
+    border-color: #0070f3;
+  }
+  .btn-blue:hover {
+    background-color: #fffffe !important;
+    color: #0070f3 !important;
+  }
+  
+  .btn-blue:focus {
+    background-color: #fffffe !important;
+    color: #0070f3 !important;
+  }
+  .btn-green {
+    background-color: #03a33e;
+    color: white !important;
+    transition: 0.2s;
+    border-color: #03a33e;
+  }
+
+  .btn-green:focus {
+    color: white;
+  }
+
+  .btn-green:hover {
+    background-color: #fffffe !important;
+    color: #03a33e !important;
+  }
+
+  .btn-green:focus {
+    background-color: #fffffe !important;
+    color: #03a33e !important;
+  }
+
+  .btn-red {
+    background-color: #a3032b;
+    color: white !important;
+    transition: 0.2s;
+    border-color: #a3032b;
+  }
+
+  .btn-red:focus {
+    color: white;
+  }
+
+  .btn-red:hover {
+    background-color: #fffffe !important;
+    color: #a3032b !important;
+  }
+
+  .btn-red:focus {
+    background-color: #fffffe !important;
+    color: #a3032b !important;
+  }
+
+
+  .btn-purple {
+    background-color: #6E49CB;
+    color: white !important;
+    transition: 0.2s;
+    border-color: #6E49CB;
+  }
+
+  .btn-purple:focus {
+    color: white;
+  }
+
+  .btn-purple:hover {
+    background-color: #fffffe !important;
+    color: #6E49CB !important;
+  }
+
+  .btn-purple:focus {
+    background-color: #fffffe !important;
+    color: #6E49CB !important;
+  }
+
+  .btn-blue-outline {
+    background-color: #ffffff;
+
+    color: #0070f3 !important;
+    transition: 0.2s;
+    border-radius: 0;
+    border-color: #0070f3;
+  }
+  .btn-blue-outline:hover {
+    background-color: #0070f3 !important;
+    color: #FFF !important;
+    border-color: #0070f3;
+  }
+  
+  .btn-blue-outline:focus {
+    background-color: #0070f3 !important;
+    color: #FFF !important;
+  }
+
+  .btn-gray-outline {
+    background-color: #ffffff;
+    color: rgb(17, 17, 17) !important;
+    transition: 0.2s;
+    border-radius: 0;
+    border-color: #b6b7b8;
+  }
+  .btn-gray-outline:hover {
+    background-color: #b6b7b8 !important;
+    color: #0d0d0e !important;
+  }
+  
+  .btn-gray-outline:focus {
+    background-color: #fffffe !important;
+  }
+
+
+  .btn-blue-box:before{
+    background: linear-gradient(90deg, #185192, #0052b1 ) !important;
+    opacity: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    transition: opacity 0.2s;
+    flex-shrink: 0;
+    display: flex;
+  }
+
+  .btn-blue-box:hover:before{
+    opacity: 1;
+  }
+  
+  .btn-blue-box{
+    background: linear-gradient(90deg, #2174d5, #0070f3 );
+    color: white !important;
+    transition: 0.2s;
+    position: relative;
+    border-color: #0070f3;
+    border-radius: 0px;
+    outline: none !important;
+    width:150px;
+    margin-bottom: 10px;
+    z-index: 1;
+    
+  }
+  .btn-blue-box ::-moz-selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-blue-box ::selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-blue-box:hover{
+    opacity:100%;
+    border-color: #0070f3;
+  }
+
+
+
+  .btn-blue-glow{
+    background: linear-gradient(90deg, #2174d5, #0070f3 );
+    color: white !important;
+    transition: 0.2s;
+    border-color: #0070f3;
+    border-radius: 0px;
+    box-shadow: 0px 6px 15px  rgba(0, 112, 244,.64);
+    transition: 0.4s;
+    outline: none !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .btn-blue-glow ::-moz-selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-blue-glow ::selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-blue-glow:hover{
+  box-shadow: 0px 4px 11px  rgba(0, 112, 244,0.5);
+  }
+
+  .btn-green-glow{
+    background: linear-gradient(90deg, #3eca22d8, #19d122c0 );
+    color: white !important;
+    transition: 0.2s;
+    border-color:#25d62ec0;
+    border-radius: 0px;
+    box-shadow: 0px 6px 15px  #0aec15b2;
+    transition: 0.4s;
+    outline: none !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-green-glow ::-moz-selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-green-glow ::selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-green-glow:hover{
+  box-shadow: 0px 4px 11px  rgba(0, 244, 12,0.5);
+  }
+
+
+  .btn-orange-glow{
+    background: linear-gradient(90deg, #f1b04dd8, #eba843d8 );
+    color: white !important;
+    transition: 0.2s;
+    border-color:#e2a448c0;
+    border-radius: 0px;
+    box-shadow: 0px 6px 15px  #f7ad3ed8;
+    transition: 0.4s;
+    outline: none !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-orange-glow ::-moz-selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-orange-glow ::selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-orange-glow:hover{
+  box-shadow: 0px 4px 11px  rgba(235, 141, 33, 0.5);
+  }
+
+  .btn-purple-glow{
+    background: linear-gradient(90deg, #8929c1, #9c00f4);
+    color: white !important;
+    transition: 0.2s;
+    border-color: #9c00f4;
+  
+    border-radius: 0px;
+    box-shadow: 0px 6px 15px rgba(156, 0, 244,.64);
+    transition: 0.4s;
+    outline: none !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-purple-glow:hover{
+  
+    box-shadow: 0px 4px 11px  rgba(156, 0, 244,0.5);
+  }
+  .btn-purple-glow ::-moz-selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-purple-glow ::selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-red-glow{
+  
+    background: linear-gradient(90deg, #f40047, #d50943);
+    color: white !important;
+    transition: 0.2s;
+    border-color: #f40047;
+    border-radius: 0px;
+  
+    box-shadow: 0px 6px 15px rgba(244, 0, 71,.64);
+    transition: 0.4s;
+    outline: none !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-red-glow:hover{
+    box-shadow: 0px 4px 11px  rgba(244, 0, 71,0.5);
+  }
+  .btn-red-glow:focus{
+    outline: none !important;
+  }
+  .btn-red-glow ::-moz-selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-red-glow ::selection {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+  .btn-blue-glow:focus{
+    outline-width: none !important;
+  }
